@@ -1,4 +1,4 @@
-$(function() {
+$(document).ready(function(){
     //caches a jQuery object containing the header element
     var header = $(".header");
     $(window).scroll(function() {
